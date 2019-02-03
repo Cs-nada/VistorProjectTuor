@@ -309,7 +309,7 @@ extension PhotosViewController {
     // Configure the collectionView cell
     func configure(_ cell: UICollectionViewCell, for indexPath: IndexPath) {
         
-        guard let cell = cell as? PhotoCell else { return }
+         guard let cell = cell as? PhotoCell else { return }
         
         var image: UIImage
         
