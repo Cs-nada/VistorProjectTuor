@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2200F542220754800038B6E1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F541220754800038B6E1 /* MapViewController.swift */; };
+		2200F5442207574B0038B6E1 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F5432207574B0038B6E1 /* PhotosViewController.swift */; };
 		22EF437B2202556D0024FA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF437A2202556D0024FA4F /* AppDelegate.swift */; };
-		22EF437D2202556D0024FA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF437C2202556D0024FA4F /* ViewController.swift */; };
 		22EF43802202556D0024FA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF437E2202556D0024FA4F /* Main.storyboard */; };
 		22EF43832202556D0024FA4F /* Virtual Tourist App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22EF43812202556D0024FA4F /* Virtual Tourist App.xcdatamodeld */; };
 		22EF43852202556F0024FA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EF43842202556F0024FA4F /* Assets.xcassets */; };
 		22EF43882202556F0024FA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF43862202556F0024FA4F /* LaunchScreen.storyboard */; };
-		22EF4390220255EB0024FA4F /* VistorProjectTuor.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = 22EF438F220255EA0024FA4F /* VistorProjectTuor.xcodeproj */; };
-		22EF4392220255F80024FA4F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4391220255F80024FA4F /* PhotosViewController.swift */; };
 		22EF4394220255FE0024FA4F /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4393220255FE0024FA4F /* Const.swift */; };
 		22EF4396220256080024FA4F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4395220256080024FA4F /* CoreDataStack.swift */; };
 		22EF4398220256130024FA4F /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4397220256130024FA4F /* NetworkAPI.swift */; };
@@ -27,16 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2200F541220754800038B6E1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = VistorProjectTuor/MapViewController.swift; sourceTree = SOURCE_ROOT; };
+		2200F5432207574B0038B6E1 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		22EF43772202556D0024FA4F /* VistorProjectTuor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistorProjectTuor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EF437A2202556D0024FA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22EF437C2202556D0024FA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22EF437F2202556D0024FA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22EF43822202556D0024FA4F /* VistorProjectTuor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VistorProjectTuor.xcdatamodel; sourceTree = "<group>"; };
 		22EF43842202556F0024FA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22EF43872202556F0024FA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22EF43892202556F0024FA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22EF438F220255EA0024FA4F /* VistorProjectTuor.xcodeproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "wrapper.pb-project"; path = VistorProjectTuor.xcodeproj; sourceTree = SOURCE_ROOT; };
-		22EF4391220255F80024FA4F /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = "../Virtual-Tourist/Virtual-Tourist/PhotosViewController.swift"; sourceTree = SOURCE_ROOT; };
 		22EF4393220255FE0024FA4F /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = "../../Virtual-Tourist/Virtual-Tourist/Const.swift"; sourceTree = "<group>"; };
 		22EF4395220256080024FA4F /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = "../../Virtual-Tourist/Virtual-Tourist/CoreDataStack.swift"; sourceTree = "<group>"; };
 		22EF4397220256130024FA4F /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkAPI.swift; path = "../../Virtual-Tourist/Virtual-Tourist/NetworkAPI.swift"; sourceTree = "<group>"; };
@@ -79,15 +77,14 @@
 			isa = PBXGroup;
 			children = (
 				22EF437A2202556D0024FA4F /* AppDelegate.swift */,
-				22EF438F220255EA0024FA4F /* VistorProjectTuor.xcodeproj */,
-				22EF4391220255F80024FA4F /* PhotosViewController.swift */,
-				22EF437C2202556D0024FA4F /* ViewController.swift */,
+				2200F541220754800038B6E1 /* MapViewController.swift */,
 				22EF4393220255FE0024FA4F /* Const.swift */,
 				22EF4395220256080024FA4F /* CoreDataStack.swift */,
 				22EF439B220256200024FA4F /* PhotoCell.swift */,
 				22EF4397220256130024FA4F /* NetworkAPI.swift */,
 				22EF4399220256190024FA4F /* Flickr.swift */,
 				22EF437E2202556D0024FA4F /* Main.storyboard */,
+				2200F5432207574B0038B6E1 /* PhotosViewController.swift */,
 				22EF43812202556D0024FA4F /* Virtual Tourist App.xcdatamodeld */,
 				22EF43A522025C100024FA4F /* Pin+CoreDataProperties.swift */,
 				22EF43A722025C1A0024FA4F /* Pin+CoreDataClass.swift */,
@@ -172,18 +169,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EF4396220256080024FA4F /* CoreDataStack.swift in Sources */,
+				2200F5442207574B0038B6E1 /* PhotosViewController.swift in Sources */,
 				22EF43AE22025C6F0024FA4F /* Photo+CoreDataProperties.swift in Sources */,
 				22EF439A2202561A0024FA4F /* Flickr.swift in Sources */,
 				22EF43832202556D0024FA4F /* Virtual Tourist App.xcdatamodeld in Sources */,
 				22EF43A622025C100024FA4F /* Pin+CoreDataProperties.swift in Sources */,
-				22EF437D2202556D0024FA4F /* ViewController.swift in Sources */,
 				22EF437B2202556D0024FA4F /* AppDelegate.swift in Sources */,
-				22EF4390220255EB0024FA4F /* VistorProjectTuor.xcodeproj in Sources */,
 				22EF43B022025C770024FA4F /* Photo+CoreDataClass.swift in Sources */,
 				22EF439C220256200024FA4F /* PhotoCell.swift in Sources */,
-				22EF4392220255F80024FA4F /* PhotosViewController.swift in Sources */,
 				22EF43A822025C1A0024FA4F /* Pin+CoreDataClass.swift in Sources */,
 				22EF4394220255FE0024FA4F /* Const.swift in Sources */,
+				2200F542220754800038B6E1 /* MapViewController.swift in Sources */,
 				22EF4398220256130024FA4F /* NetworkAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
