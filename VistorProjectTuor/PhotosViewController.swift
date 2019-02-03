@@ -6,7 +6,6 @@
 //  Copyright © 2019 Ndoo H. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import MapKit
 import CoreData
@@ -475,3 +474,4 @@ extension PhotosViewController: UICollectionViewDataSourcePrefetching {
         }
     }
 }
+
