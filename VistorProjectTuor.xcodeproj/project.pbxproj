@@ -78,12 +78,12 @@
 			children = (
 				22EF437A2202556D0024FA4F /* AppDelegate.swift */,
 				2200F541220754800038B6E1 /* MapViewController.swift */,
+				2200F578220762A50038B6E1 /* PhotosViewController.swift */,
 				2200F56C220760FD0038B6E1 /* Const.swift */,
 				2200F56E220761370038B6E1 /* CoreDataStack.swift */,
 				2200F570220761990038B6E1 /* PhotoCell.swift */,
 				2200F572220761DB0038B6E1 /* NetworkAPI.swift */,
 				2200F576220762260038B6E1 /* Flickr.swift */,
-				2200F578220762A50038B6E1 /* PhotosViewController.swift */,
 				22EF437E2202556D0024FA4F /* Main.storyboard */,
 				22EF43812202556D0024FA4F /* Virtual Tourist App.xcdatamodeld */,
 				2200F57A220763330038B6E1 /* Pin+CoreDataProperties.swift */,

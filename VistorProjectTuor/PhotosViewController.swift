@@ -148,13 +148,13 @@ class PhotosViewController: UIViewController {
             
             // GUARD: was there an error?
             guard error == nil else {
-                print("Network request returned with error: \(String(describing: error)), \(error?.userInfo)")
+                print("Network request returned with error: \(String(describing: error)), \(String(describing: error?.userInfo))")
                 return
             }
             
             // GUARD: was it successful?
             guard success else {
-                print("The request was unsuccessful: \(String(describing: error)), \(error?.userInfo)")
+                print("The request was unsuccessful: \(String(describing: error)), \(String(describing: error?.userInfo))")
                 return
             }
             
@@ -333,7 +333,7 @@ extension PhotosViewController {
                     
                     // GUARD - check for error
                     guard error == nil else {
-                        print("Error fetching photo data: \(error)")
+                        print("Error fetching photo data: \(String(describing: error))")
                         return
                     }
                     
