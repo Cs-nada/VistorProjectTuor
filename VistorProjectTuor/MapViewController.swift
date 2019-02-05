@@ -69,6 +69,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     override func viewWillDisappear(_ animated: Bool) {
         // we're going to another view, let's save the current state
+        super.viewWillDisappear(animated)
         saveMapRegion()
     }
     

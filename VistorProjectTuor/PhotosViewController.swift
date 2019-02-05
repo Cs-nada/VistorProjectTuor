@@ -366,13 +366,7 @@ extension PhotosViewController {
     }
     
     func configureButton() {
-        if selectedCache.isEmpty {
-            // No photos selected, so option is to remove all photos
-            button.title = "Remove all photos"
-        } else {
-            // Some photos are selected, so option is to remove those
-            button.title = "Remove selected photos"
-        }
+        button.title = selectedCache.isEmpty ? "Remove all photos" : "Remove selected photos" 
     }
     
     

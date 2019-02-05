@@ -88,6 +88,10 @@
                                             <constraint firstAttribute="trailing" secondItem="ksP-ic-SiY" secondAttribute="trailing" id="oV5-H5-AwM"/>
                                             <constraint firstAttribute="bottom" secondItem="ksP-ic-SiY" secondAttribute="bottom" id="ufv-9I-f0b"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="activityIndicator" destination="83d-nP-uvE" id="sdv-a6-3yb"/>
+                                            <outlet property="imageView" destination="ksP-ic-SiY" id="MKI-hl-mF6"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
