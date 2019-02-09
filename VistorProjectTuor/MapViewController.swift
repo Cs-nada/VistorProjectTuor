@@ -31,7 +31,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+      
         // Configure the gesture recgnizer for long presses
         longPressRec.addTarget(self, action: #selector(MapViewController.userLongPressed))
         longPressRec.allowableMovement = 25
@@ -74,11 +74,14 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        // Here we save the context for the following reason:
-        // If the user pressed a pin and moved to the PhotosViewController
-        // Photos might have been downloaded, deleted, etc. So we save here
-        // to preserve the data when the user returns from that VC
-        
+        if Reachability.isConnectedToNetwork() == true {
+            print("Internet connection OK")
+        } else {
+            print("Internet connection FAILED")
+            let alert = UIAlertView(title: "No Internet Connection", message: "Make sure your device is connected to the internet.", delegate: nil, cancelButtonTitle: "OK")
+            alert.show()
+            
+        }
         do {
             try managedContext.save()
         } catch let error as NSError {

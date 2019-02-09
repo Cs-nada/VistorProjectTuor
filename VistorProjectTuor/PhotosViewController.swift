@@ -25,7 +25,7 @@ class PhotosViewController: UIViewController {
     
     // minimum space between cells
     let space: CGFloat = 3.0
-    
+    var ur:String = ""
     // MARK: - Outlets
     
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
@@ -33,6 +33,7 @@ class PhotosViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var button: UIBarButtonItem!
     @IBOutlet weak var noImagesLabel: UILabel!
+
     @IBAction func buttonTapped(_ sender: Any) {
         
         if selectedCache.isEmpty {
@@ -80,7 +81,7 @@ class PhotosViewController: UIViewController {
         
         collectionView.delegate = self
         collectionView.dataSource = self
-        
+    
         // new to iOS 10 - enable prefetcing
         collectionView.prefetchDataSource = self
         collectionView.isPrefetchingEnabled = true
@@ -241,13 +242,16 @@ class PhotosViewController: UIViewController {
         
         // get the list of Photos to delete from the indexPath array
         for indexPath in selectedCache {
+            
             photosToDelete.append(fetchedResultsController.object(at: indexPath))
         }
         
         // remove each photo from the managed context
         for photo in photosToDelete {
+            print(photo.imageURL!)
             managedContext.delete(photo)
         }
+
         
         // reset the selection of photos
         selectedCache.removeAll()
@@ -283,6 +287,7 @@ class PhotosViewController: UIViewController {
 extension PhotosViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
         
         let cell = collectionView.cellForItem(at: indexPath) as! PhotoCell
         
@@ -326,6 +331,8 @@ extension PhotosViewController {
             // image exists, use it
             cell.activityIndicator.stopAnimating()
             image = UIImage(data: photo.image!)!
+            
+            
         } else {
             // image has not been downloaded, try to download it
             if let imagePath = photo.imageURL {
@@ -354,6 +361,7 @@ extension PhotosViewController {
         }
         
         cell.imageView.image = image
+        ur = photo.imageURL!
         cell.imageView.contentMode = .scaleAspectFill
         
         // apply 'selected' to cell if appropriate

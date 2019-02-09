@@ -18,6 +18,7 @@
 		2200F57D220763DE0038B6E1 /* Pin+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F57C220763DE0038B6E1 /* Pin+CoreDataClass.swift */; };
 		2200F57F220764100038B6E1 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F57E220764100038B6E1 /* Photo+CoreDataProperties.swift */; };
 		2200F581220764CD0038B6E1 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F580220764CD0038B6E1 /* Photo+CoreDataClass.swift */; };
+		22BD1E63220F77D600A083BE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD1E62220F77D600A083BE /* Reachability.swift */; };
 		22EF437B2202556D0024FA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF437A2202556D0024FA4F /* AppDelegate.swift */; };
 		22EF43802202556D0024FA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF437E2202556D0024FA4F /* Main.storyboard */; };
 		22EF43832202556D0024FA4F /* Virtual Tourist App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22EF43812202556D0024FA4F /* Virtual Tourist App.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 		2200F57C220763DE0038B6E1 /* Pin+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pin+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2200F57E220764100038B6E1 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2200F580220764CD0038B6E1 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		22BD1E62220F77D600A083BE /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		22EF43772202556D0024FA4F /* VistorProjectTuor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistorProjectTuor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EF437A2202556D0024FA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EF437F2202556D0024FA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				2200F56E220761370038B6E1 /* CoreDataStack.swift */,
 				2200F570220761990038B6E1 /* PhotoCell.swift */,
 				2200F572220761DB0038B6E1 /* NetworkAPI.swift */,
+				22BD1E62220F77D600A083BE /* Reachability.swift */,
 				2200F576220762260038B6E1 /* Flickr.swift */,
 				22EF437E2202556D0024FA4F /* Main.storyboard */,
 				22EF43812202556D0024FA4F /* Virtual Tourist App.xcdatamodeld */,
@@ -176,6 +179,7 @@
 				22EF43832202556D0024FA4F /* Virtual Tourist App.xcdatamodeld in Sources */,
 				22EF437B2202556D0024FA4F /* AppDelegate.swift in Sources */,
 				2200F56F220761370038B6E1 /* CoreDataStack.swift in Sources */,
+				22BD1E63220F77D600A083BE /* Reachability.swift in Sources */,
 				2200F581220764CD0038B6E1 /* Photo+CoreDataClass.swift in Sources */,
 				2200F57D220763DE0038B6E1 /* Pin+CoreDataClass.swift in Sources */,
 				2200F542220754800038B6E1 /* MapViewController.swift in Sources */,
