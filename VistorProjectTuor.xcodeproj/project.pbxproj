@@ -19,6 +19,7 @@
 		2200F57F220764100038B6E1 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F57E220764100038B6E1 /* Photo+CoreDataProperties.swift */; };
 		2200F581220764CD0038B6E1 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F580220764CD0038B6E1 /* Photo+CoreDataClass.swift */; };
 		22BD1E63220F77D600A083BE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD1E62220F77D600A083BE /* Reachability.swift */; };
+		22BD1E65220F7B6F00A083BE /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 22BD1E64220F7B6F00A083BE /* Readme.md */; };
 		22EF437B2202556D0024FA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF437A2202556D0024FA4F /* AppDelegate.swift */; };
 		22EF43802202556D0024FA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF437E2202556D0024FA4F /* Main.storyboard */; };
 		22EF43832202556D0024FA4F /* Virtual Tourist App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22EF43812202556D0024FA4F /* Virtual Tourist App.xcdatamodeld */; };
@@ -39,6 +40,7 @@
 		2200F57E220764100038B6E1 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2200F580220764CD0038B6E1 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		22BD1E62220F77D600A083BE /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		22BD1E64220F7B6F00A083BE /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		22EF43772202556D0024FA4F /* VistorProjectTuor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistorProjectTuor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EF437A2202556D0024FA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EF437F2202556D0024FA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		22EF436E2202556D0024FA4F = {
 			isa = PBXGroup;
 			children = (
+				22BD1E64220F7B6F00A083BE /* Readme.md */,
 				22EF43792202556D0024FA4F /* VistorProjectTuor */,
 				22EF43782202556D0024FA4F /* Products */,
 			);
@@ -160,6 +163,7 @@
 			files = (
 				22EF43882202556F0024FA4F /* LaunchScreen.storyboard in Resources */,
 				22EF43852202556F0024FA4F /* Assets.xcassets in Resources */,
+				22BD1E65220F7B6F00A083BE /* Readme.md in Resources */,
 				22EF43802202556D0024FA4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
