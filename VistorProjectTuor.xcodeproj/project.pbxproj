@@ -64,6 +64,7 @@
 		22EF436E2202556D0024FA4F = {
 			isa = PBXGroup;
 			children = (
+				22BD1E64220F7B6F00A083BE /* Readme.md */,
 				22EF43792202556D0024FA4F /* VistorProjectTuor */,
 				22EF43782202556D0024FA4F /* Products */,
 			);
@@ -80,7 +81,6 @@
 		22EF43792202556D0024FA4F /* VistorProjectTuor */ = {
 			isa = PBXGroup;
 			children = (
-				22BD1E64220F7B6F00A083BE /* Readme.md */,
 				22EF437A2202556D0024FA4F /* AppDelegate.swift */,
 				2200F541220754800038B6E1 /* MapViewController.swift */,
 				2200F578220762A50038B6E1 /* PhotosViewController.swift */,
