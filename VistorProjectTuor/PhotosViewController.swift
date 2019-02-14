@@ -150,18 +150,24 @@ class PhotosViewController: UIViewController {
             // GUARD: was there an error?
             guard error == nil else {
                 print("Network request returned with error: \(String(describing: error)), \(String(describing: error?.userInfo))")
+                let alert = UIAlertView(title: "Network Request Error", message: "Network request returned with error: \(String(describing: error)), \(String(describing: error?.userInfo))", delegate: nil, cancelButtonTitle: "OK")
+                alert.show()
                 return
             }
             
             // GUARD: was it successful?
             guard success else {
                 print("The request was unsuccessful: \(String(describing: error)), \(String(describing: error?.userInfo))")
+                let alert = UIAlertView(title: "Request Error", message: "The request was unsuccessful: \(String(describing: error)), \(String(describing: error?.userInfo))", delegate: nil, cancelButtonTitle: "OK")
+                alert.show()
                 return
             }
             
             // Did we receive photos
             guard photosDict != nil else {
                 print("Photos dictionay returned is nil")
+                let alert = UIAlertView(title: "Error", message: "Photos dictionay returned is nil", delegate: nil, cancelButtonTitle: "OK")
+                alert.show()
                 return
             }
             
